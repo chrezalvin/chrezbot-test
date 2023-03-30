@@ -1,0 +1,143 @@
+[
+    {
+        "level": "1 - 19",
+        "description": "For low levels pretty much anything works but assuming you're new with beginner equipment I'll try to make this solo friendly as well.",
+        "mobs": [
+            {"name": "Blue Jelly", "location": "Debacky Channel", "level": "10", "corynID": "75"},
+            {"name": "Colon", "location": "Rugio Ruins", "level": "5", "corynID": "79"}
+        ]
+    },
+    {
+        "level": "19 - 21",
+        "mobs": [
+            {"name": "Lavarca", "location": "Rakau Plains", "level": "21", "corynID": "19"},
+            {"name": "Goblin", "location": "Rinom Plains", "level": "23", "corynID": "113"}
+        ]
+    },
+    {
+        "level": "21 - 39",
+        "mobs": [
+            {"name": "Euris", "location": "Lonogo Canyon", "level": "30", "corynID": "206"},
+            {"name": "Goblin", "location": "Zoktzda Ruins", "level": "29", "corynID": "146"}
+        ]
+    },
+    {
+        "level": "39 - 55",
+        "mobs": [
+            {"name": "Bone Dragonnewt", "location": "Ancient Empress Tomb: Area 3", "level": "48", "corynID": "242"}
+        ]
+    },
+    {
+        "level": "55 - 70",
+        "mobs": [
+            {"name": "Flare Volg", "location": "Fiery Volcano: Boss Map", "level": "60", "difficulty": "Hard", "corynID": "716"},
+            {"name": "Flare Volg", "location": "Fiery Volcano: Boss Map", "level": "70", "difficulty": "Nightmare", "corynID": "717"}
+        ]
+    },
+    {
+        "level": "70 - 96",
+        "mobs": [
+            {"name": "Masked Warrior", "location": "Land Under Cultivation: Hill", "level": "67", "difficulty": "Normal", "corynID": "278"},
+            {"name": "Masked Warrior", "location": "Land Under Cultivation: Hill", "level": "77", "difficulty": "Hard", "corynID": "279"},
+            {"name": "Masked Warrior", "location": "Land Under Cultivation: Hill", "level": "87", "difficulty": "Nightmare", "corynID": "280"}
+        ]
+    },
+    {
+        "level": "96 - 112",
+        "mobs": [
+            {"name": "Don Yeti", "location": "Polde Ice Valley", "level": "103", "corynID": "465"}
+        ]
+    },
+    {
+        "level": "112 - 126",
+        "mobs": [
+            {"name": "Cerberus", "location": "Spring of Rebirth: Top", "level": "117", "difficulty": "Nightmare", "corynID": "691"}
+        ]
+    },
+    {
+        "level": "126 - 130",
+        "mobs": [
+            {"name": "Lapin the Necromancer", "location": "Trace of Dark River", "level": "124", "corynID": "540"}
+        ]
+    },
+    {
+        "level": "130 - 146",
+        "description": "At this point you should get ready to upgrade your equipment if you haven't. You're about to acquire t4, and the leveling will become a bit harder at this point so you should give yourself a little boost",
+        "mobs": [
+            {"name": "Cerberus", "location": "Spring of Rebirth: Top", "level": "137", "difficulty": "Ultimate", "corynID": "692"}
+        ]
+    },
+    {
+        "level": "146 - 155",
+        "description": "You can also go to Venena normal if you want, but I find the EXP to be slow at normal difficulty",
+        "mobs": [
+            {"name": "Super Death Mushroom", "location": "Monster's Forest: Animal Trail", "level": "150", "corynID": "1051"},
+            {"name": "Venena Coenubia", "location": "Ultimea Palace: Throne", "level": "150", "difficulty": "Normal", "corynID": "1291"}
+        ]
+    },
+    {
+        "level": "155 - 179",
+        "mobs": [
+            {"name": "Venena Coenubia", "location": "Ultimea Palace: Throne", "level": "160", "difficulty": "Hard", "corynID": "1292"},
+            {"name": "Venena Coenubia", "location": "Ultimea Palace: Throne", "level": "170", "difficulty": "Nightmare", "corynID": "1293"}
+        ]
+    },
+    {
+        "level": "179 - 183",
+        "mobs": [
+            {"name": "Altoblepas", "location": "Rokoko Plains", "level": "174", "corynID": "1498"},
+            {"name": "Gwaimol", "location": "Cuervo Jail: Roof", "level": "176"}
+        ]
+    },
+    {
+        "level": "183 - 199",
+        "mobs": [
+            {"name": "Venena Coenubia", "location": "Ultimea Palace: Throne", "level": "190", "difficulty":"Ultimate", "corynID": "1294"},
+            {"name": "Carbuncle", "location": "Hall of Construction Gods", "level": "183"}
+        ]
+    },
+    {
+        "level": "200 - 215",
+        "mobs": [
+            {"name": "Grimuckus", "location": "Wazeero Street", "level": "195"},
+            {"name": "Finstern the Dark Dragon", "location": "Dark Dragon Shrine: Near the Top", "level": "206", "difficulty": "Ultimate", "corynID": "1620"}
+        ]
+    },
+    {
+        "level": "215 - 233",
+        "description": "venena metacoenubia 🙂\nI'm just kidding please don't do that\nHere you have options",
+        "mobs": [
+            {"name": "Kuzto", "location": "Labilans Sector: Square", "level": "218", "difficulty": "Ultimate", "corynID": "1937"},
+            {"name": "Gravicep", "location": "Recetacula Sector: Depot Rooftop", "level": "224", "difficulty": "Ultimate", "corynID": "2011"},
+            {"name": "Demonic Eye", "location": "Dea Ruinea", "level": "212", "corynID": "2037"},
+            {"name": "Espectro", "location": "Arche Valley: Area 1", "level": "221", "corynID": "2186"}
+        ],
+        "footer": "I suggest at least using Gravicep / Espectro (228-230) So you could go ahead to the next step"
+    },
+    {
+        "level": "230 - 245",
+        "mobs": [
+            {"name": "Arachnidemon", "location": "Arche Valley: Depths", "level": "236", "difficulty": "Ultimate", "corynID": "2192"},
+            {"name": "Arbogazella", "location": "Guardian Forest: Lost Woods", "level": "236"}
+
+        ]
+    },
+    {
+        "level": "245 - 260",
+        "description": "Again you have options",
+        "mobs": [
+            {"name": "Ferzen the Rock Dragon", "location": "Guardian Forest: Giant Tree", "level": "251", "difficulty": "Ultimate", "corynID": "2453"},
+            {"name": "Burning Dragon Igneus", "location": "Boma Moja: Village Center", "level": "252", "difficulty": "Nightmare", "corynID": "2758"},
+            {"name": "Gemma", "location": "Fugitive Lake Swamp: Depths", "level": "248", "difficulty": "Ultimate", "corynID": "2378"}
+        ]
+    },
+    {
+        "level": "260 - 265",
+        "mobs": [
+            {"name": "Trickster Dragon Mimyugon", "location": "Operation Zone: Cockpit Area", "level": "258", "difficulty": "Nightmare", "corynID": "2798"},
+            {"name": "Wolkissa", "location": "Weredragon's Throat", "level": "257", "corynID": "2688"},
+            {"name": "War Dragon Turba", "location": "Prime Ramus: Village", "level": "257", "difficulty": "Ultimate"}
+
+        ]
+    }
+]

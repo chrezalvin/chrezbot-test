@@ -1,0 +1,749 @@
+[
+    {
+        "name": "Physical Attack Boost",
+        "maxLevel": 30,
+        "description": "Increases ATK by 1 per level",
+        "stoodie": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/battle/attackup.png"
+    },
+    {
+        "name": "Magic Attack Boost",
+        "maxLevel": 30,
+        "description": "Increases MATK by 1 per level",
+        "stoodie": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/battle/magicup.png"
+    },
+    {
+        "name": "Max HP Boost",
+        "maxLevel": 100,
+        "description": "Increases HP by 1 per level.",
+        "stoodie": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/survival/hpboost.png"
+    },
+    {
+        "name": "Max MP Boost",
+        "maxLevel": 100,
+        "description": "Increases MP by 1 per level.",
+        "stoodie": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/survival/mpboost.png"
+    },
+    {
+        "name": "Physical Defense Boost",
+        "maxLevel": 50,
+        "description": "Increases DEF by 1 per level.",
+        "stoodie": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210]
+    },
+    {
+        "name": "Magic Defense Boost",
+        "maxLevel": 50,
+        "description": "Increases DEF by 1 per level.",
+        "stoodie": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210]
+    },
+    {
+        "name": "Accuracy Boost",
+        "maxLevel": 10,
+        "description": "Increases Accuracy by 1 per level",
+        "stoodie": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/battle/accuracyup.png"
+    },
+    {
+        "name": "Dodge Boost",
+        "maxLevel": 10,
+        "description": "Increases Dodge by 1 per level",
+        "stoodie": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/battle/dodgeup.png"
+    },
+    {
+        "name": "Attack Speed Boost",
+        "maxLevel": 100,
+        "description": "Increases ASPD by 1 per level",
+        "stoodie": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210]
+    },
+    {
+        "name": "Magic Speed Boost",
+        "maxLevel": 100,
+        "description": "Increases CSPD by 1 per level",
+        "stoodie": [10, 30, 50, 70, 90, 110, 130, 150, 170, 190, 210]
+    },
+    {
+        "name": "Wayfarer",
+        "maxLevel": 10,
+        "description": "Increases EXP Gain by 10% but lowers damage dealt by [15 - Registlet Level]%.",
+        "stoodie": [10, 30, 50, 70, 90],
+        "imgThumbnail": "https://coryn.club/skill/survival/expgainup.png"
+    },
+    {
+        "name": "Sunbath",
+        "maxLevel": 4,
+        "description": "When using Emotions that increase Natural Regen, an additional [25 × Registlet Level]% of MP will be restored.",
+        "stoodie": [10, 30, 50, 70]
+    },
+    {
+        "name": "Hard Hit Enhancer",
+        "maxLevel": 20,
+        "description": "Raises the power of **Hard Hit** by 5% per Level.",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/blade/hardhit.png"
+    },
+    {
+        "name": "Sonic Blade Extender",
+        "maxLevel": 20,
+        "description": "Extends the time you must reuse **Sonic Blade** to turn it into **Super Sonic Blade** by 1 second per Level.",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/blade/sonicblade.png"
+    },
+    {
+        "name": "Power Shot Boost",
+        "maxLevel": 20,
+        "description": "Raises the power of **Power Shot** by 15% per Registlet Level when Tumble is inflicted.",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/shot/powershot.png"
+    },
+    {
+        "name": "Bullseye Enhancer",
+        "maxLevel": 20,
+        "description": "Raises the power of **Bullseye** by 5% per Level.",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/shot/bullseye.png"
+    },
+    {
+        "name": "Magic: Arrows Enhancer",
+        "maxLevel": 4,
+        "description": "Adds 1 shot per Level to the skill **Magic: Arrows**",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/magic/arrows.png"
+    },
+    {
+        "name": "Magic: Wall Enhancer",
+        "maxLevel": 20,
+        "description": "Raises the power of **Magic: Wall** by 5% per Level.",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/magic/wall.png"
+    },
+    {
+        "name": "Smash Enhancer",
+        "maxLevel": 20,
+        "description": "Raises the power of **Smash** by 5% per Level if used with knuckles.",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/martial/smash.png"
+    },
+    {
+        "name": "Sonic Wave Enhancer",
+        "maxLevel": 20,
+        "description": "Raises the power of **Sonic Wave** by 5% per Level if used with knuckles.",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/martial/sonicwave.png"
+    },
+    {
+        "name": "Twin Slash Enhancer",
+        "maxLevel": 20,
+        "description": "Raises the critical damage from **Twin Slash** by 1% per Level.",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/dw/twinslash.png"
+    },
+    {
+        "name": "Cross Parry Enhancer",
+        "maxLevel": 20,
+        "description": "Raises the power of **Cross Parry** by 5% per Level",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/dw/crossparry.png"
+    },
+    {
+        "name": "Flash Stab Enhancer",
+        "maxLevel": 20,
+        "description": "Raises the power of **Flash Stab** by 5% per Level.",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/halberd/flashstab.png"
+    },
+    {
+        "name": "Cannon Spear Enhancer",
+        "maxLevel": 10,
+        "description": "Adds a [10 × Level]% chance of inflicting **Flinch** to the first attack of the skill **Cannon Spear**",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/halberd/cannonspear.png"
+    },
+    {
+        "name": "Issen Enhancer",
+        "maxLevel": 20,
+        "description": "Raises the power of the second hit of **Issen** by 5% per Registlet.",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/katana/issen.png"
+    },
+    {
+        "name": "Pommel Strike Enhancer",
+        "maxLevel": 5,
+        "description": "Extends the duration of **Paralysis** caused by the skill **Pommel Strike** by 1 second per Level.",
+        "stoodie": [30, 50, 70, 90, 110, 130],
+        "imgThumbnail": "https://coryn.club/skill/katana/pomelstrike.png"
+    },
+    {
+        "name": "Poison Heal",
+        "maxLevel": 30,
+        "description": "[Level]% chance of having **Poison** status removed when taking damage inflicted by **Poison**.",
+        "stoodie": [30, 50],
+        "imgThumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/950371853296369724/poison.png"
+    },
+    {
+        "name": "Cat's Eye",
+        "maxLevel": 1,
+        "description": "A **miss** hit while you are **Blind** may be turned into a **graze** hit when possible.",
+        "stoodie": [30, 70],
+        "imgThumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/950372181785866260/blind.png"
+    },
+    {
+        "name": "Emergency HP Heal",
+        "maxLevel": 10,
+        "description": "Instantly restores [10 + Level]% of your HP when there is only 25% or less due to monster's attacks. \nCooldown: 60 seconds",
+        "stoodie": [30, 150]
+    },
+    {
+        "name": "Emergency MP Heal",
+        "maxLevel": 10,
+        "description": "Immediately restores [10 × Level] MP if there is not enough MP.\nCooldown: 60 seconds",
+        "stoodie": [50, 150]
+    },
+    {
+        "name": "Neural Control",
+        "maxLevel": 30,
+        "description": "Reduces the amount of ASPD lowered due to Paralysis by 2% per Level.",
+        "stoodie": [50, 70],
+        "imgThumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/950372030069489734/paralysis.png"
+    },
+    {
+        "name": "Final Resistance",
+        "maxLevel": 5,
+        "description": "If you get knocked out last in the party, you will squeeze out every last bit of your strength to quickly revive for [5 + Level] seconds before becoming unable to battle again.\n∗ First Aid, Struggle, Revive Droplets Unavailable",
+        "stoodie": [50, 170]
+    },
+    {
+        "name": "Elemental Trigger Slash",
+        "maxLevel": 1,
+        "description": "Converts the element of **Trigger Slash** from fire to that of the weapon equipped.",
+        "stoodie": [ 70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/blade/tiggerslash.png"
+    },
+    {
+        "name": "Spiral Air Enhancer",
+        "maxLevel": 20,
+        "description": "Raises the power of **Spiral Air** by 2% per Level.",
+        "stoodie": [ 70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/blade/spiralair.png"
+    },
+    {
+        "name": "Arrow Rain Enhancer",
+        "maxLevel": 2,
+        "description": "An additional attack is added to the skill **Arrow Rain** per Level.",
+        "stoodie": [ 70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/shot/arrowrain.png"
+    },
+    {
+        "name": "Paralysis Shot Extender",
+        "maxLevel": 10,
+        "description": "Extends the duration of buff from the skill **Paralysis Shot** by 1 second per Level.",
+        "stoodie": [ 70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/shot/paralysisshot.png"
+    },
+    {
+        "name": "Magic: Lances Catalyst",
+        "maxLevel": 5,
+        "description": "Shortens the interval between shots of the skill **Magic: Lances** by 0.1 seconds per Level.",
+        "stoodie": [ 70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/magic/lances.png"
+    },
+    {
+        "name": "Magic: Blast Catalyst",
+        "maxLevel": 5,
+        "description": "Shortens the time to cast the skill **Magic: Blast** by 0.2 seconds per Level.",
+        "stoodie": [ 70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/magic/blast.png"
+    },
+    {
+        "name": "Power Wave Modifier",
+        "maxLevel": 10,
+        "description": "Modifies the effect of **Power Wave** so that it raises normal attack power by [⌈(Registlet Level + Power Wave Level) × 0.5⌉]% instead of extending the range.\n∗ The increment depends on the skill level.",
+        "stoodie": [ 70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/magic/powerwave.png"
+    },
+    {
+        "name": "Shell Break Enhancer",
+        "maxLevel": 5,
+        "description": "Raises the chance to inflict Armor Break with the skill **Shell Break** by 5% per Level.",
+        "stoodie": [ 70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/martial/shellbreak.png"
+    },
+    {
+        "name": "Earthbind Enhancer",
+        "maxLevel": 10,
+        "description": "Raises the power of **Earthbind** by 5% per Registlet Level if used with knuckles.",
+        "stoodie": [ 70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/martial/earthbind.png"
+    },
+    {
+        "name": "Spinning Slash Compress",
+        "maxLevel": 10,
+        "description": "Reduces the range of **Spinning Slash** and removes the knock back effect, but raises its power by 5% per Level.",
+        "stoodie": [ 70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/dw/spinningslash.png"
+    },
+    {
+        "name": "Critical Charging Slash",
+        "maxLevel": 10,
+        "description": "Lowers the power of **Charging Slash** by [110 - (10 × Level)]% and guarantees a critical hit.",
+        "stoodie": [70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/dw/chargingslash.png"
+    },
+    {
+        "name": "Dragon Tail Enhancer",
+        "maxLevel": 20,
+        "description": "Raises the power of the second hit of **Dragon Tail** by 5% per Level.",
+        "stoodie": [70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/halberd/dragontail.png"
+    },
+    {
+        "name": "Mega War Cry of Struggle",
+        "maxLevel": 10,
+        "description": "Increases the aggro generated by the skill **War Cry of Struggle** by 300 per Level.",
+        "stoodie": [70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/halberd/warcryofstruggle.png"
+    },
+    {
+        "name": "Static Triple Thrust",
+        "maxLevel": 10,
+        "description": "You will remain in the same spot when using the skill **Triple Thrust**",
+        "stoodie": [70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/katana/triplethrust.png"
+    },
+    {
+        "name": "Magadachi Amulet",
+        "maxLevel": 6,
+        "description": "Raises magic damage reduction by the skill **Magadachi** by 5% per Level.",
+        "stoodie": [70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/katana/magadachi.png"
+    },
+    {
+        "name": "Meikyo Shisui Preserver",
+        "maxLevel": 1,
+        "description": "The effect from **Meikyo Shisui** remains when using a skill.",
+        "stoodie": [70, 90, 110, 130, 150],
+        "imgThumbnail": "https://coryn.club/skill/katana/meikyoshisui.png"
+    },
+    {
+        "name": "Steady Stance",
+        "maxLevel": 10,
+        "description": "Reduces damage taken while afflicted with Stop by 3% per Level if you stand still.",
+        "stoodie": [70, 90],
+        "imgThumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/950373062770061342/stop.png"
+    },
+    {
+        "name": "Shared Destiny",
+        "maxLevel": 10,
+        "description": "Each party member excluding you will raise ATK and MATK by 1%, but [110 - (10 × Level)]% of HP will be lost whenever a member gets knocked out.\n∗ This HP loss could knock player out.",
+        "stoodie": [70, 90]
+    },
+    {
+        "name": "Forty Winks",
+        "maxLevel": 5,
+        "description": "Shortens Sleep duration by 10% per Level.",
+        "stoodie": [90],
+        "imgThumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/950374698032726026/sleep.png"
+    },
+    {
+        "name": "Tanker's Pet",
+        "maxLevel": 10,
+        "description": "Lowers the damage received by pet by 3% per Level, but greatly increases the damage received by its owner.",
+        "stoodie": [90]
+    },
+    {
+        "name": "Last Hero",
+        "maxLevel": 10,
+        "description": "Restores [10 + Level]% of your HP and MP per knocked out party member when you are the only one left.\nCooldown: 300 seconds",
+        "stoodie": [90, 190]
+    },
+    {
+        "name": "Monophobia",
+        "maxLevel": 5,
+        "description": "Restores 100 HP per 10 seconds when near a party member, but when not, 100 HP will be lost. Range is [3 + Level] meters.\n∗ This HP loss won't knock player out.",
+        "stoodie": [90, 170]
+    },
+    {
+        "name": "Pyrexia",
+        "maxLevel": 20,
+        "description": "The chance of having Freeze status removed if you do a normal attack while frozen increases by 5% per Level.",
+        "stoodie": [110],
+        "imgThumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/950372589904203786/freeze.png"
+    },
+    {
+        "name": "Impetus",
+        "maxLevel": 10,
+        "description": "Reduces movement speed decline due to Slow by 5% per Level.",
+        "stoodie": [110, 130],
+        "imgThumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/950372845765161000/slow.png"
+    },
+    {
+        "name": "Silent Recharge",
+        "maxLevel": 10,
+        "description": "Increase amount of MP recovered by 5% per Level if **MP Charge** is used while afflicted with Silence.",
+        "stoodie": [110],
+        "imgThumbnail": "https://coryn.club/skill/magic/mpcharge.png"
+    },
+    {
+        "name": "Attacker's Pet",
+        "maxLevel": 10,
+        "description": "Raises the damage dealt by pet by 3% per Level, but greatly decreases its owner's.",
+        "stoodie": [110]
+    },
+    {
+        "name": "Mana Thrash",
+        "maxLevel": 1,
+        "description": "Raises normal attack power in exchange for Attack MP Recovery.\n∗ Power increases more with higher Attack MP Recovery.",
+        "stoodie": [110]
+    },
+    {
+        "name": "Parsimony",
+        "maxLevel": 10,
+        "description": "Instead of consuming a triggered auto-item, the item cooldown is doubled.\nCooldown: [40 - Level] seconds.",
+        "stoodie": [110]
+    },
+    {
+        "name": "Emergency Repair",
+        "maxLevel": 20,
+        "description": "There is a [5 × Level]% chance of having Armor Break status removed when the damage taken increases because of it.",
+        "stoodie": [130],
+        "imgThumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/950372715766882315/armorbreak.png"
+    },
+    {
+        "name": "Mana Defuser",
+        "maxLevel": 1,
+        "description": "Immediately restores 100 MP if you survive a Mana Explosion.",
+        "stoodie": [130, 150],
+        "imgThumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/950375485018349599/manaexplosion.png"
+    },
+    {
+        "name": "Coffee Break",
+        "maxLevel": 10,
+        "description": "Restores 10% of your HP when you defeat a monster.\nCooldown: [30 - Level] seconds.",
+        "stoodie": [130]
+    },
+    {
+        "name": "Eagle Eye",
+        "maxLevel": 10,
+        "description": "Reduces damage taken from behind (opposite camera direction) by 1% per Level. The damage will be further reduced when taken from directly behind.",
+        "stoodie": [130]
+    },
+    {
+        "name": "Savior",
+        "maxLevel": 1,
+        "description": "Grants a 10-second invincibility if you revive when all of your party members get knocked out.",
+        "stoodie": [130]
+    },
+    {
+        "name": "Remedial Rampage",
+        "maxLevel": 10,
+        "description": "Removes the finishing attack of the skill **Rampage** and restores 50 HP per Level.",
+        "stoodie": [150, 170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/blade/rampage.png"
+    },
+    {
+        "name": "Sword Tempest Extender",
+        "maxLevel": 1,
+        "description": "Adds 1 hit to the skill **Sword Tempest**.",
+        "stoodie": [150, 170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/blade/swordtempest.png"
+    },
+    {
+        "name": "Smoke Dust Extender",
+        "maxLevel": 10,
+        "description": "Extends the duration of buff from the skill **Smoke Dust** by 1 second per Level.",
+        "stoodie": [150, 170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/shot/smokedust.png"
+    },
+    {
+        "name": "Piercing Heavy Smash",
+        "maxLevel": 10,
+        "description": "Adds [5 × Level]% Physical Pierce to the skill **Heavy Smash** if used with knuckles.",
+        "stoodie": [150, 170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/martial/heavysmash.png"
+    },
+    {
+        "name": "Phantom Slash Enhancer",
+        "maxLevel": 20,
+        "description": "Raises the power of **Phantom Slash** by 5% per Level.",
+        "stoodie": [150, 170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/dw/phantomslash.png"
+    },
+    {
+        "name": "Focus Dive Impact",
+        "maxLevel": 5,
+        "description": "Turns the skill **Dive Impact** into an attack that pierces through a single target. Resistance to Dazzled is shortened by 2 seconds per Level.",
+        "stoodie": [150, 170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/halberd/diveimpact.png"
+    },
+    {
+        "name": "Pursuit Relief",
+        "maxLevel": 20,
+        "description": "Reduces damage taken by 1% per Level when you can't move while afflicted with Flinch, Tumble, or Stun.",
+        "stoodie": [150]
+    },
+    {
+        "name": "Burning Spirit",
+        "maxLevel": 10,
+        "description": "Restores MP as much as [5 × Level]% of your Attack MP Recovery when taking damage inflicted by Ignite.",
+        "stoodie": [150],
+        "imgThumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/950372334588555274/ignite.png"
+    },
+    {
+        "name": "Bloody Warrior",
+        "maxLevel": 20,
+        "description": "Raises normal attack power and Attack MP Recovery by 5% per Level while afflicted with Bleed.",
+        "stoodie": [150],
+        "imgThumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/950374583645659186/bleed.png"
+    },
+    {
+        "name": "Monster Hunter",
+        "maxLevel": 10,
+        "description": "Restores 100 MP when you defeat a monster.\nCooldown: [30 - Level] seconds.",
+        "stoodie": [150]
+    },
+    {
+        "name": "Panic",
+        "maxLevel": 10,
+        "description": "Restores [10 × Level] MP every 3 seconds, but all MP will be lost if you get aggro and this Registlet will be suspended for 30 seconds.",
+        "stoodie": [150]
+    },
+    {
+        "name": "Transfer",
+        "maxLevel": 10,
+        "description": "Lowers MaxMP by [1100 - (100 × Level)], but when you are knocked out, the remaining MP will be shared among your party members.\n∗ Players whose MP gets restored by this effect cannot enjoy the same effect for 180 seconds.",
+        "stoodie": [150]
+    },
+    {
+        "name": "Dominant War Cry",
+        "maxLevel": 1,
+        "description": "Activation of **War Cry** will not be interrupted by Fear.",
+        "stoodie": [170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/blade/warcry.png"
+    },
+    {
+        "name": "Berserk Control",
+        "maxLevel": 1,
+        "description": "For each level of **Berserk**, 10% chance to prevent **Rampage** from being cancelled.",
+        "stoodie": [170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/blade/berserk.png"
+    },
+    {
+        "name": "Decoy Shot Compress",
+        "maxLevel": 10,
+        "description": "Halves the duration of **Decoy Shot** but increases the power by 10% per Level.",
+        "stoodie": [170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/shot/decoyshot.png"
+    },
+    {
+        "name": "Frugal Shield Bash",
+        "maxLevel": 10,
+        "description": "Restores [10 × Level] MP when **Shield Bash** inflicts **Stun**.",
+        "stoodie": [170],
+        "imgThumbnail": "https://coryn.club/skill/shield/shieldbash.png"
+    },
+    {
+        "name": "Extra Recovery",
+        "maxLevel": 5,
+        "description": "Adds a HP recovery effect to the skill **Recovery**. The amount of HP restored is [10 × Level]% of the HP recovered by the **Mini Heal** learned.",
+        "stoodie": [170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/support/recovery.png"
+    },
+    {
+        "name": "Frugal Heal",
+        "maxLevel": 1,
+        "description": "Reduces the MP Cost of the skill **Heal** by 100.",
+        "stoodie": [170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/support/heal.png"
+    },
+    {
+        "name": "Extreme Whack",
+        "maxLevel": 5,
+        "description": "Increases the activation rate of **Whack** by 1% per Level.",
+        "stoodie": [170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/battle/whack.png"
+    },
+    {
+        "name": "Extreme Concentrate",
+        "maxLevel": 5,
+        "description": "Increases the activation rate of **Concentrate** by 1% per Level.",
+        "stoodie": [170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/battle/concentrate.png"
+    },
+    {
+        "name": "Secret Chase ATK Boost",
+        "maxLevel": 1,
+        "description": "Increases the activation rate of additional attack of **Secret Chase Attac** by 1% per level of the skill acquired.",
+        "stoodie": [170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/battle/secretchase.png"
+    },
+    {
+        "name": "Power Resonance",
+        "maxLevel": 9,
+        "description": "**Resonance** will only enhance stats that affect firepower, but the enhancement is reduced by [95 - (5 × Level)]%.",
+        "stoodie": [170],
+        "imgThumbnail": "https://coryn.club/skill/magicblade/resonance.png"
+    },
+    {
+        "name": "Universal Ether Flare",
+        "maxLevel": 1,
+        "description": "**Ether Flare** will recover Attack MP even if the element is not the target's weakness.",
+        "stoodie": [170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/magicblade/etherflare.png"
+    },
+    {
+        "name": "Bloody Bite Enhancer",
+        "maxLevel": 10,
+        "description": "Raises the power of **Bloody Bite** by 10% per Level.",
+        "stoodie": [170, 190, 210],
+        "imgThumbnail": "https://coryn.club/skill/dark/bloodybite.png"
+    },
+    {
+        "name": "Full Power Qi Charge",
+        "maxLevel": 10,
+        "description": "When **Qi Charge** gives no effect, qi will increase by [10 × Level]% if the skill is activated using 2000 MP.",
+        "stoodie": [170],
+        "imgThumbnail": "https://coryn.club/skill/unarmed/qicharge.png"
+    },
+    {
+        "name": "Single Meteor Strike",
+        "maxLevel": 1,
+        "description": "Reduces the number of meteorites dropped from **Meteor Strike** to 1, but the drop point will no longer be random. It will no longer inflict status ailments either.",
+        "stoodie": [170],
+        "imgThumbnail": "https://coryn.club/skill/wizard/meteorstrike.png"
+    },
+    {
+        "name": "Start Dash",
+        "maxLevel": 5,
+        "description": "Normal attack has 0 second cooldown for [5 + Level] seconds when getting aggro from the target monster for the first time.\nCooldown: 60 seconds",
+        "stoodie": [170]
+    },
+    {
+        "name": "Secret Combo",
+        "maxLevel": 10,
+        "description": "Reduces aggro by [Level]% per 1 combo. Better effect with longer combo.",
+        "stoodie": [170]
+    },
+    {
+        "name": "Zero Stance",
+        "maxLevel": 10,
+        "description": "Damage dealt with skill activated without using a combo is multiplied by [1 + (0.01 × Level)]. *Does not apply to some skills such as charge skills.",
+        "stoodie": [170]
+    },
+    {
+        "name": "Express Assault Attack",
+        "maxLevel": 10,
+        "description": "Removes **Knock Back** and **Slow** from **Assault Attack** and increases its power by 10% per Level",
+        "stoodie": [190],
+        "imgThumbnail": "https://coryn.club/skill/knight/assaultattack.png"
+    },
+    {
+        "name": "Rage Sword Enhancer",
+        "maxLevel": 10,
+        "description": "Raises the power of **Rage Sword** by 10% per Level. Aggro doubles if the target is hostile towards you.",
+        "stoodie": [190],
+        "imgThumbnail": "https://coryn.club/skill/knight/ragesword.png"
+    },
+    {
+        "name": "Mega Royal Heal",
+        "maxLevel": 8,
+        "description": "The range of **Royal Heal** effect is increased by 1m per Level, but the amount of HP restores is halved.",
+        "stoodie": [190],
+        "imgThumbnail": "https://coryn.club/skill/priest/royalheal.png"
+    },
+    {
+        "name": "Tricky Shadow Walk",
+        "maxLevel": 1,
+        "description": "Additional attack of **Shadow Walk** will no longer cause proration.",
+        "stoodie": [190],
+        "imgThumbnail": "https://coryn.club/skill/assassin/shadowwalk.png"
+    },
+    {
+        "name": "Comrade Familia",
+        "maxLevel": 1,
+        "description": "The chance of the familiar summoned with **Familia** fleeing is reduced by 1%. Movement becomes 1 second faster for Advanced Familiar.",
+        "stoodie": [190],
+        "imgThumbnail": "https://coryn.club/skill/wizard/familia.png"
+    },
+    {
+        "name": "Speed Resonance",
+        "maxLevel": 9,
+        "description": "**Resonance** will only enhance stats that affect acceleration, but the enhancement is reduced by [95 - (5 × Level)]%.",
+        "stoodie": [190],
+        "imgThumbnail": "https://coryn.club/skill/magicblade/resonance.png"
+    },
+    {
+        "name": "Short Performance",
+        "maxLevel": 1,
+        "description": "Shortens the duration of dance skill effect by 5 seconds.\n*Does not apply to Spirited Dance.",
+        "stoodie": [190]
+    },
+    {
+        "name": "Silent P. Defense",
+        "maxLevel": 10,
+        "description": "Reduces the aggro generated when P. Defense is successful by [10 × Level]%",
+        "stoodie": [210],
+        "imgThumbnail": "https://coryn.club/skill/knight/pdefense.png"
+    },
+    {
+        "name": "Binding Strike Modifier",
+        "maxLevel": 1,
+        "description": "Modifies **Binding Strike** so that it inflicts **Stun** to the target only and the **Stop** effect is removed.",
+        "stoodie": [210],
+        "imgThumbnail": "https://coryn.club/skill/knight/bindingstrike.png"
+    },
+    {
+        "name": "Holy Light Retribution",
+        "maxLevel": 10,
+        "description": "There is a 1% chance that Lv[Registlet Level] light element Magic: Finale will activate when **Holy Light** hits the target.",
+        "stoodie": [210]
+    },
+    {
+        "name": "Assassin Stab Enhancer",
+        "maxLevel": 10,
+        "description": "Raises the power of **Assassin Stab** by [Level]%. Furthermore, the accuracy is raised by [10 × Level]% if it is Back Stab.",
+        "stoodie": [210],
+        "imgThumbnail": "https://coryn.club/skill/assassin/assassinstab.png"
+    },
+    {
+        "name": "Mana Crystal Catalyst",
+        "maxLevel": 10,
+        "description": "Reduces the casting time of **Mana Crystal** by [10 × Level]%, but the amount of MP recovered gets reduced by 100.",
+        "stoodie": [210],
+        "imgThumbnail": "https://coryn.club/skill/wizard/manacrystal.png"
+    },
+    {
+        "name": "Chancy Trap",
+        "maxLevel": 10,
+        "description": "Enables a trap skill to be set at the target's feet, but if it activates immediately, you will also be affected.",
+        "stoodie": [210]
+    },
+    {
+        "name": "Focus Demon Claw",
+        "maxLevel": 1,
+        "description": "The power of **Demon Claw** is reduced by 100% but the skill will focus on attacking a single target",
+        "stoodie": [210],
+        "imgThumbnail": "https://coryn.club/skill/dark/demonclaw.png"
+    },
+    {
+        "name": "Focus Resonance",
+        "maxLevel": 9,
+        "description": "**Resonance** will only enhance stats that affect concentration and precision, but the enhancement is reduced by [95 - (5 × Level)]%.",
+        "stoodie": [210],
+        "imgThumbnail": "https://coryn.club/skill/magicblade/resonance.png"
+    },
+    {
+        "name": "Heal Bank",
+        "maxLevel": 10,
+        "description": "The amount of HP recovered by **Mini Heal** and **Heal** is halved.\nAccumulates up to [Level] stacks of buff every 3 sec. When using the skill to heal an ally, the buff is consumed instead of MP to activate it.",
+        "stoodie": [210]
+    },
+    {
+        "name": "Guitarist",
+        "maxLevel": 6,
+        "description": "Shortens the time for song effect to increase when used continuously by [Level] sec, but aggro and damage received while singing increase by 10%.\n*Does not apply to Fantasy Song.",
+        "stoodie": [210]
+    }
+]

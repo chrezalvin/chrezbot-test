@@ -1,0 +1,113 @@
+[
+    {
+        "name": "Consecutive (cons)",
+        "description": [
+            "Decreases the cost of a skill in MP depending on its order in a combo. Reduces the damage done (if the skill does any damage) in the same way.", 
+            "* Formula for MP reduction: initial skill cost (MP) - (skill-order-1) * 100.", 
+            "* Damage reduction formula: initial_damage * [1 - (order_of - 1) * 0.1].",
+            "This means the following: If the second skill in the combo has the Consecutive tag, its total MP cost will be 100 MP less, and its damage will be reduced by 10%; If this tag is set to the third skill in a row, its cost will be reduced by 200MP, and its damage will be reduced by 20%, etc. etc.",
+            "* Keep in mind that the MP cost cannot go below 0."
+        ],
+        "examples": [
+            "**moeba shot -> Snipe (consecutive)**\nmoeba shot will cost 100 mp\nbut snipe will only cost 300 mp(and deal 90% damage)",
+            "**moeba shot -> war cry (consecutive) -> snipe (consecutive)**\nmoeba shot will cost 100\nwar cry will cost 200 mp(300-100)(unaffected by damage reduction)\nand snipe will cost 200 mp(400-200)(and deal 80% damage)",
+            "it is possible to lower a skill mp cost to 0 mp\n**moeba shot -> reflex (consecutive)**\nmoeba shot will cost 100 mp\nreflex will cost 0 mp"
+        ],
+        "thumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/871989080181862481/consec.png"
+    },
+    {
+        "name": "Mind's Eye",
+        "description": [
+            "makes you stop your combo if the skill with this tag has a status ailment and the target of the skill already has the status ailment or in cooldown of that status ailment",
+            "* it makes it so that the skill (if not cancelled) will always hit (at least graze, but still can be evaded)",
+            "* If used with decoy shot, decoy shot will always at least graze."
+        ],
+        "thumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/871989086947274782/mindseye.png"
+    },
+    {
+        "name": "Invincible",
+        "description": [
+            "lets you have a chance to become invincible",
+            "10% for each skill in the combo",
+            "* need 10 skills for 100% invincible",
+            "* Invincible chance is based on where the tag is placed, only 1 invincible tag will work in a combo"
+        ],
+        "examples": ["**moeba -> snipe -> finale -> war cry -> berserk -> impact (invincible)**\ninvincible chance will be 60% for having 6 skills in the combo."],
+        "thumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/871989120757559317/invincible.png"
+    },
+    {
+        "name": "Bloodsucker",
+        "description": ["restores hp based on damage and combo count (works like smite, the number of skills before and the skill with the bloodsucker tag will increase the effect)",
+                        "for 10 seconds after using the skill with bloodsuck, the skills following it will get boosted but will drain some of your hp after it(10% max hp - skill position, so 5th skill will only lose 5% hp)",
+                        "* the longer the combo is, the more effective the heal and dmg boost will be",
+                        "* dmg boost is (10 + [combo count])%, so at 5th skill, that's 15%",
+                        "* it feels a bit too strong at the moment, used sc and dealt 200k hp and healed 16k hp(2nd in combo)",
+                        "* you can't recover hp while the buff is there, you have to wait 10 seconds before you can regen hp from bloodsuck again",
+                        "* does not work on decoy"
+                    ],
+        "thumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/871989114092797992/bloodsucker.png"
+
+    },
+    {
+        "name": "Reflection",
+        "description": [
+            "If you get hit while using the tagged skill, you deal a normal attack to the attacker (only works once on the skill, so multi hits on you will only deal 1 attack)",
+            "if you don't take damage, the mp cost of the following skill will be reduced (1mp reduction, needs more testing)"
+        ],
+        "thumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/871989130018578502/reflect.png"
+    },
+    {
+        "name": "Tenacity",
+        "description": [
+            "Will use the skill even if you lack the mp to use it, you will use hp instead as cost for the skill, if you have enough mp, this tag will not do anything"
+        ],
+        "examples": ["**Impact -> Finale (Tenacity)**\nif you don't have 800mp, you'll lose 800 hp to use finale"],
+        "thumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/871989094123720704/tenacity.png"
+    },
+    {
+        "name": "Save",
+        "description": [
+            "Reduce the mp cost of the skill to 0 and save the mp, also reduces the skill dmg by 80%",
+            "The 3 following skills will have their damage reduced by 60%,40% and 20% (Meaning the 4th skill will have it's 100% power back).",
+            "The saved mp from the skill will also be used to reduce the cost of skills following it, but if it isn't fully used up, then the last skill's cost will be double"
+        ],
+        "examples": [
+            "**moeba shot -> war cry (save) -> Snipe**\nwar cry will cost 0 mp and have a -80% atk dmg\nSnipe will cost 100 mp(400 base cost - 300 saved from war cry) and deal 40% damage",
+            "**Moeba shot -> War cry (save) -> Magic Impact**\nsince magic impact only costs 200 mp, you still have 100 mp left in your save, here impact will cost 400 mp instead of 0 as it is the last skill in the combo and you still have not used up all the mp saved from war cry"
+        ],
+        "footer": "tip: save can be used in buffs, using buff skills after it (like the 3 following skills after it) you can avoid the penalty of losing power, it can also be ended quickly with the finale ender method to make a cheap short combo",
+        "thumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/871989100721344522/save.png"
+    },
+    {
+        "name": "Tough",
+        "description": [
+            "Reduces damage to the tagged skill and the skill after it",
+            "* Tagged skill damage reduction: 50%",
+            "* Skill after tagged skill damage reduction: 25%",
+            "* Lasts during animation of the skills"
+        ],
+        "footer": "Whether if it works on frac hits or stacks with parry skill (like cross parry or magadachi) is still unknown",
+        "thumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/871989136834310174/tough.png"
+    },
+    {
+        "name": "Swift",
+        "description": [
+            "Increases the skill's motion speed to 150%(max motion speed)",
+            "* Motion speed is the animation speed, it does not affect casting speed"
+        ],
+        "thumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/871989068194512987/swift.png"
+    },
+    {
+        "name": "Smite",
+        "description": [
+            "Increases the tagged skill dmg by 50%",
+            "Reduces damage of skills after the tagged skill",
+            "If the tagged skill is the last skill in the combo, the mp cost of the skill will be doubled",
+            "for charging skill (like crossfire or magic: canon), this effect is carried away until it released"
+        ],
+        "examples": [
+            "**Impact -> snipe (smite) -> Finale (Smite)**\nSnipe will have 150% Atk\nfinale will have it's mp cost doubled 1600 x 2 = 3200 thus not working in the skill (Finale is used as a combo ender as putting it at the last skill with smite makes the combo end instantly)"
+        ],
+        "thumbnail": "https://cdn.discordapp.com/attachments/614452674137686022/871989044731592735/smite.png"
+    }
+]
